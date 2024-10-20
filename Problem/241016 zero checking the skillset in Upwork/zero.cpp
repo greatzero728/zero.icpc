@@ -6,8 +6,8 @@ vector<string> vec;
 char s[1010];
 
 int main() {
-    freopen("skills.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    freopen("Full Skills.txt", "r", stdin);
+    freopen("Full Output.txt", "w", stdout);
     
     while(gets(s)) vec.push_back(s);
     
