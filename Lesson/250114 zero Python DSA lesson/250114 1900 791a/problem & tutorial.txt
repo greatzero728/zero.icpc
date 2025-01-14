@@ -1,0 +1,16 @@
+URL:
+https://codeforces.com/problemset/problem/791/A
+
+Problem Analysis:
+given a, b.
+operation: a=a*3, b=b*2
+How many operations are needed to make a greater than b?
+
+Algorithm:
+while a <= b: implement operation, count number of operation
+
+Key Points:
+How to use semicolon(;) in python
+
+In Python, we can use a semicolon (;) to separate multiple statements on a single line.
+However, this is not a good option in development because it can make the code less readable and goes against the Pythonic style of writing clear and concise code.

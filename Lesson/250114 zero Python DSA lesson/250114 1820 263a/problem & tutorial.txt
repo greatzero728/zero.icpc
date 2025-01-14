@@ -1,0 +1,36 @@
+URL:
+https://codeforces.com/problemset/problem/263/A
+
+Problem Analysis:
+Given 5 x 5 0-1 grid, there is exactly one 1.
+the minimum number of operations that move 1 into the middle point.
+
+Algorithm:
+get position of 1: i, j and then print(abs(i-3) + (j-3))
+
+Key Points:
+How to input the 5 x 5 grid.
+a=[list(map(int,input().split())) for _ in range(5)]
+
+if input is following:
+n m
+n x m gird
+how to input?
+
+Square brackets [] in Python are used to define a list.
+Do you know what is a list comprehension?
+A list comprehension is a compact way to create a list.
+
+The general syntax is:
+[expression for item in iterable]
+This means:
+Create a list by applying expression to each item in the iterable.
+
+e.g., 
+squares = [x**2 for x in range(5)]
+print(squares)  # Output: [0, 1, 4, 9, 16]
+
+How to generate n elements list that each element is 0?
+grid = [0 for _ in range(7)]
+print(grid)  # Output: [0, 0, 0, 0, 0, 0, 0]
+

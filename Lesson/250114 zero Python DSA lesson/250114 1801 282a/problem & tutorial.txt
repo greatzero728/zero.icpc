@@ -1,0 +1,14 @@
+URL:
+https://codeforces.com/problemset/problem/282/A
+
+Problem Analysis:
+given the ++, -- commands, should print the final result.
+two types of plus operation: ++X, X++: meaning: X = X + 1
+same for minus operation:
+
+Algorithm:
+the middle element is either '+' or '-'
+
+Key Points:
+a bit long description, but should understand the main key point quickly.
+no need to read all description in detail.

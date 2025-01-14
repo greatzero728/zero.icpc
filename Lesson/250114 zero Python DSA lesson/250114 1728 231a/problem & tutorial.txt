@@ -1,0 +1,18 @@
+URL:
+https://codeforces.com/problemset/problem/231/A
+
+Problem Analysis:
+Currently the contest is open.
+There are n problems.
+Given the yes/no state for each contest players, if two of them is yes, then they can solve that problem.
+How many problems they can solve?
+
+Algorithm:
+
+
+Key Points:
+for statemenet.
+
+How to input 3 integers more easily:
+states = list(map(int, input().split()))
+print step by step.

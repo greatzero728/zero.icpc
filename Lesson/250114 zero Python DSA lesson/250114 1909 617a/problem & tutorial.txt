@@ -1,0 +1,14 @@
+URL:
+https://codeforces.com/problemset/problem/617/A
+
+Problem Analysis:
+can move eithor 1, 2, 3, 4, 5.
+what is the minimum number of operations?
+
+Algorithm:
+It's obvious that to minimize the number of operation, we should use 5 step as much as possible.
+
+Key Points:
+// meaning: floow function
+7//3 = 2 because 7/3=2.33333
+-1//3 = ? it's -1.
